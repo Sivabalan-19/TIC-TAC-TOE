@@ -14,7 +14,7 @@ boxs.forEach(box =>
         gameEnded = true;
       } else if (checkDraw()) 
       {
-        alert("IT IS A DRAW");
+        alert("IT IS DRAW");
         gameEnded = true;
       } else {
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
